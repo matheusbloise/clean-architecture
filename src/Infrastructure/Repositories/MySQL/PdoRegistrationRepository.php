@@ -10,7 +10,7 @@ use App\Domain\ValueObjects\Email;
 use DateTimeImmutable;
 use PDO;
 
-class PdoRegistrationRepository implements LoadRegistrationRepository
+final class PdoRegistrationRepository implements LoadRegistrationRepository
 {
     private PDO $pdo;
 
