@@ -1,0 +1,25 @@
+{
+    "name": "matheusbloise/clean-architecture",
+    "type": "project",
+    "description": "Este projeto foi feito acompanhando a playlist do CabraDev - Clean Architecture",
+    "extra": {
+        "playlist": "https://www.youtube.com/playlist?list=PLBD8to5dJhvyr07t03AjYYQ_8LNHrQKF4"
+    },
+    "authors": [
+        {
+            "name": "Matheus Bloise",
+            "email": "matheusbloisev@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-pdo": "*",
+        "dompdf/dompdf": "^1.0",
+        "guzzlehttp/psr7": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
